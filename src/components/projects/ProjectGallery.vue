@@ -1,6 +1,9 @@
 <script>
 export default {
-	props: ['projectImages'],
+	props: ['projectData'],
+	created(){
+
+	}
 };
 </script>
 
@@ -8,13 +11,13 @@ export default {
 	<div class="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12">
 		<div
 			class="mb-10 sm:mb-0"
-			v-for="projectImage in projectImages"
-			:key="projectImage.id"
+			v-for="item in projectData"
+			:key="item.imgurl"
 		>
 			<img
-				:src="projectImage.img"
+				:src="item.imgurl"
 				class=" rounded-xl cursor-pointer shadow-lg sm:shadow-none"
-				alt="{{ projectImage.title }}"
+				alt=""
 			/>
 		</div>
 	</div>

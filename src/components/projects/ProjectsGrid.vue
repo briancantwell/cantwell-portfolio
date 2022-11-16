@@ -2,7 +2,9 @@
 import feather from 'feather-icons';
 import ProjectsFilter from './ProjectsFilter.vue';
 import ProjectSingle from './ProjectSingle.vue';
-import projects from '../../data/projects';
+// import projects from '../../data/projects';
+import projects from '../../data/project_data';
+
 
 export default {
 	components: { ProjectSingle, ProjectsFilter },
