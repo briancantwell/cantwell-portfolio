@@ -2,12 +2,12 @@ const projectData = {
 
     "soundcloud": {
         "id": 1,
-        category: 'Design',
+        "category": 'Design',
         "url": "soundcloud",
         "title": "SoundCloud Redesign",
         "description": {
             "objective": "As a group, analyze a website interface, conduct interviews and surveys about user experience and redesign the website based on analysis results. Write a blog post detailing our design process.",
-            "details": [],
+            // "details": [],
             "contribution": [
                 {
                     "text":"Created mockups of low, medium, and high fidelity for the Support Page",
@@ -48,28 +48,24 @@ const projectData = {
     },
     "spec_story": {
         "id": 2,
-        category: 'Design',
+        "category": 'Design',
         "url": "spec_story",
         "title": "Speculative Story",
         "description": {
             "objective": "Envision three new forms of interaction with a non-traditional computational system.",
-            "details": [],
-            "contribution": [
-                {
-                    "text":""
-                }
-            ],
+            // "details": [],
+            // "contribution": [],
             "techs":[
                 'Google Slides',
                  'Google Drawings',
             ], 
-            "extlinks": []
+            // "extlinks": []
         },
         "logourl": require('@/assets/speculative-story/spec-story-logo.png'),
-        "demourl": "",
         "data": [
             {
-                "imgurl": require('@/assets/speculative-story/0.jpg'),
+                // "imgurl": require('@/assets/speculative-story/0.jpg'),
+                "demo": "https://docs.google.com/presentation/d/e/2PACX-1vRMYqNFrel8xyK9CjuGMFUdagP3QmX8t1cl7-Q-RGWsBF7wJeTwV0aAYRRvRAYVBWX3YvZjAHzsKoRb/embed?start=true&loop=true&delayms=5000",
                 "description": "I chose augmented reality as the interface to work on. I began by searching the internet for current and proposed ideas related to augmented reality interaction and devices.\n\nDesign Goals\n I made some design goals to adhere to for my own ideals on interacting with augmented reality:\n1) The 3 primary types of input would be verbal, hand tracking, and eye tracking. \n2) The device should require minimal physical interaction for operation. \n 3) Interactions should be natural and easy to learn.\n\n These design decisions were inspired by current common interactions and developing technologies. Verbal commands are already commonplace with mobile and smart home devices. Hand tracking technology is still young. The Oculus Quest platform has implemented hand tracking input for their VR headset. Eye tracking technology is still young as well. The required hardware is still relatively bulky. However, Tobii Technology has created glasses capable of eye tracking and are now developing augmented reality glasses similar to the hypothetical Gadget Glasses I proposed for this assignment.",
             },
         ]
@@ -107,7 +103,7 @@ const projectData = {
                     "text": "Create a text search interface to enable searching the collection of tweets and display a list."
                 },
             ],
-            "contribution": [],
+            // "contribution": [],
             "techs":[
                 'HTML',
                 'CSS',
@@ -156,8 +152,8 @@ const projectData = {
         "title": "Spotify API",
         "description": {
             "objective": "Utilize the Spotify API to authenticate and retrieve data and then use Angular to create a frontend to display retrieved data",
-            "details": [],
-            "contribution": [],
+            // "details": [],
+            // "contribution": [],
             "techs":[
                 'HTML',
                 'CSS',

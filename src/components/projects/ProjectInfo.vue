@@ -14,9 +14,9 @@ export default {
 </script>
 
 <template>
-	<div class="block sm:flex gap-0 sm:gap-10 mt-14">
+	<!-- <div class="block sm:flex gap-0 sm:gap-10 mt-14"> -->
 		<!-- Single project left section details -->
-		<div class="w-full sm:w-1/3 text-left">
+		<div class="w-full text-left">
 
 			<!-- Single project objectives -->
 			<div class="mb-7">
@@ -27,20 +27,28 @@ export default {
 					{{ projectInfo.objectivesDetails }}
 				</p>
 			</div>
+			<!-- Single project details -->
 
+			<div class="mb-7" v-if="projectInfo.projectDetails">
+				<p class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2">
+					{{ projectInfo.projectDetailsHeading }}
+				</p>
+				<ul class="font-general-regular text-primary-dark dark:text-ternary-light list-disc">
+					<li v-for="detail in projectInfo.projectDetails" :key="detail.text">
+						{{ detail.text }}
+					</li>
+				</ul>
+			</div>
 			<!-- Single project contributions -->
-			<div class="mb-7">
+			<div class="mb-7" v-if="projectInfo.contributions[0].text">
 				<p class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2">
 					{{ projectInfo.contributions[0].title }}
 				</p>
-				<ul class="font-general-regular text-primary-dark dark:text-ternary-light list-disc">
+				<ul class="font-general-regular text-primary-dark dark:text-ternary-light list-none">
 					<li v-for="item in projectInfo.contributions[0].text" :key="item.text">
 						{{ item.text }}
 					</li>
 				</ul>
-				<!-- <p class="font-general-regular text-primary-dark dark:text-ternary-light">
-					{{ projectInfo.contributions[0].contributions }}
-				</p> -->
 			</div>
 
 			<!-- Single project technologies -->
@@ -54,20 +62,8 @@ export default {
 			</div>
 
 
-			<!-- Single project details -->
-
-			<div class="mb-7">
-				<p class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2">
-					{{ projectInfo.projectDetailsHeading }}
-				</p>
-				<ul class="font-general-regular text-primary-dark dark:text-ternary-light list-disc">
-					<li v-for="detail in projectInfo.projectDetails" :key="detail.text">
-						{{ detail.text }}
-					</li>
-				</ul>
-			</div>
 			<!-- Single project external links -->
-			<div class="mb-7">
+			<div class="mb-7" v-if="projectInfo.extlinks[0].links">
 				<p class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2">
 					{{ projectInfo.extlinks[0].title }}
 				</p>
@@ -80,7 +76,8 @@ export default {
 
 			</div>
 		</div>
+		<!-- end left section -->
 
 
-	</div>
+	<!-- </div> -->
 </template>

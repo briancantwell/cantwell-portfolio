@@ -50,6 +50,7 @@ export default {
 
 					}
 				],
+				demo:projectData[data.$route.params.projectId].demo,
 			},
 
 
@@ -69,111 +70,6 @@ export default {
 	},
 
 
-	// 	url: (project.url),
-	// 	logo: (project.logourl),
-	// 	demo: (project.demourl),
-	// title: (project.title),
-	// 	objective: (project.description.objective),
-	// 	//array of text items (text)
-	// 	details: (project.description.details),
-	// 	contribution: (project.description.contribution),
-	// 	tools: (project.description.tools),
-	// 	//array of links (text, url)
-	// 	extlinks: (project.description.extlinks),
-	// 	//array of images with description (imgurl, description)
-	// 	data: (project.data),
-
-
-	// return {
-
-
-
-	// url: (project.url),
-	// logo: (project.logourl),
-	// demo: (project.demourl),
-	// title:(project.title),
-	// objective: (project.description.objective),
-	// //array of text items (text)
-	// details: (project.description.details),
-	// contribution: (project.description.contribution),
-	// tools: (project.description.tools),
-	// //array of links (text, url)
-	// extlinks: (project.description.extlinks),
-	// //array of images with description (imgurl, description)
-	// data: (project.data),
-
-
-
-
-	// 	relatedProject: {
-	// 		relatedProjectsHeading: 'Related Projects',
-	// 		relatedProjects: [
-	// 			{
-	// 				id: 1,
-	// 				title: 'Mobile UI',
-	// 				img: require('@/assets/images/mobile-project-1.jpg'),
-	// 			},
-	// 			{
-	// 				id: 2,
-	// 				title: 'Web Application',
-	// 				img: require('@/assets/images/web-project-1.jpg'),
-	// 			},
-	// 			{
-	// 				id: 3,
-	// 				title: 'UI Design',
-	// 				img: require('@/assets/images/ui-project-2.jpg'),
-	// 			},
-	// 			{
-	// 				id: 4,
-	// 				title: 'Kabul Mobile App UI',
-	// 				img: require('@/assets/images/mobile-project-2.jpg'),
-	// 			},
-	// 		],
-	// 	},
-	// };
-	// },
-	// 	mounted() {
-	// 		feather.replace();
-
-	// },
-	// updated() {
-	// 	feather.replace();
-	// },
-	// computed:{
-
-	// },
-	// methods: {
-	// },
-	// console.log(this.$route);
-	// const data = projectData[this.$route.params.projectId];
-	// console.log(data);
-
-	// 	url: (project.url),
-	// 	logo: (project.logourl),
-	// 	demo: (project.demourl),
-	// title: (project.title),
-	// 	objective: (project.description.objective),
-	// 	//array of text items (text)
-	// 	details: (project.description.details),
-	// 	contribution: (project.description.contribution),
-	// 	tools: (project.description.tools),
-	// 	//array of links (text, url)
-	// 	extlinks: (project.description.extlinks),
-	// 	//array of images with description (imgurl, description)
-	// 	data: (project.data),
-
-	// 	feather.replace();
-
-	// },
-	// updated() {
-	// 	feather.replace();
-	// },
-	// computed:{
-
-	// },
-	// methods: {
-	// },
-
 };
 </script>
 
@@ -182,14 +78,18 @@ export default {
 		<!-- Project header -->
 		<ProjectHeader :projectTitle="title" />
 
-		<!-- Project gallery -->
-		<ProjectGallery :projectData="data" />
+	</div>
+	<div class="container mx-auto mt-10 sm:mt-20 grid md:grid-cols-12 grid-cols-1 gap-x-5">
 
-		<!-- Project information -->
-		<ProjectInfo :projectInfo="projectInfo" />
+		<div class="col-span-3 gap-x-5">
+			<!-- Project information -->
+			<ProjectInfo :projectInfo="projectInfo" />
+		</div>
+		<div class="col-span-9">
+			<!-- Project gallery -->
+			<ProjectGallery :projectData="data" />
+		</div>
 
-		<!-- Project related projects -->
-		<!-- <ProjectRelatedProjects :relatedProject="relatedProject" /> -->
 	</div>
 </template>
 
