@@ -2,7 +2,7 @@
 export default {
 	props: ['projectData'],
 	created() {
-		console.log(this.projectData.length);
+		// console.log(this.projectData.length);
 	},
 	// data() {
 	// 	return {
@@ -43,7 +43,7 @@ export default {
 		</div>
 	</div> -->
 
-	<div class="grid grid-cols-1 sm:gap-10 text-left">
+	<div class="grid grid-cols-1 gap-y-5 text-left text-ternary-dark dark:text-ternary-light">
 		<!-- creates 2 columns for images to reduce page length -->
 		<div v-if="projectData.images.length > 6">
 			<div class="grid overflow-hidden grid-lines grid-cols-1 md:grid-cols-2 auto-rows-auto gap-2.5">
@@ -52,12 +52,12 @@ export default {
 						{{ projectData.text }}
 					</p>
 				</div>
-				<div class="mb-10 sm:mb-0 border-2 border-black rounded-xl" v-for="item in projectData.images"
+				<div class="md:mb-0 border-2 border-black rounded-xl" v-for="item in projectData.images"
 					:key="item">
 
-					<img :src="item.imgurl" class="rounded-xl cursor-pointer shadow-lg sm:shadow-none pt-5 px-5"
+					<img :src="item.imgurl" class="rounded-xl cursor-pointer shadow-lg sm:shadow-none "
 						alt="" />
-					<p class="text-left p-5">
+					<p v-if="item.description" class="text-left p-5">
 						{{ item.description }}
 					</p>
 				</div>				
@@ -65,7 +65,7 @@ export default {
 		</div>
 		<!-- uses below div if 5 or fewer than images -->
 		<div v-else>
-			<div class="mb-10 sm:mb-0 border-2 border-black rounded-xl" v-for="item in projectData.images" :key="item.imgurl">
+			<div class="mb-2 border-2 border-black rounded-xl drop-shadow-2xl" v-for="item in projectData.images" :key="item.imgurl">
 				<div>
 					<img :src="item.imgurl" class=" rounded-xl cursor-pointer shadow-lg sm:shadow-none pt-5 px-5"
 						alt="" />
