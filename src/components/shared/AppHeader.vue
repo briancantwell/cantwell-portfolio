@@ -78,23 +78,23 @@ export default {
 	<nav id="nav" class="sm:container sm:mx-auto ">
 		<!-- Header start -->
 		<div
-			class="z-10 max-h-20 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center my-6"
+			class="z-10 max-w-screen-lg xl:max-w-screen-xl block sm:flex sm:justify-between sm:items-center my-6"
 		>
 			<!-- Header menu links and small screen hamburger menu -->
-			<div class="flex justify-between items-center px-4 sm:px-0 object-scale-down">
+			<div class="flex justify-between items-center px-4 sm:px-0 ">
 				<!-- Header logos -->
 				<div>
 					<router-link to="/"
 						><img
 							v-if="theme === 'light'"
 							src="@/assets/images/profile.svg"
-							class="w-36 scale-50"
+							class="object-contain w-20"
 							alt="Dark Logo"
 						/>
 						<img
 							v-else
 							src="@/assets/images/profile.svg"
-							class="w-36 scale-50"
+							class="w-20 bg-slate-200 rounded-2xl"
 							alt="Light Logo"
 						/>
 					</router-link>
