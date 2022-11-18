@@ -62,11 +62,75 @@ const projectData = {
             // "extlinks": []
         },
         "logourl": require('@/assets/speculative-story/spec-story-logo.png'),
+        "data_text":"I chose augmented reality as the interface to work on. I began by searching the internet for current and proposed ideas related to augmented reality interaction and devices.\n\nDesign Goals\n I made some design goals to adhere to for my own ideals on interacting with augmented reality:\n1) The 3 primary types of input would be verbal, hand tracking, and eye tracking. \n2) The device should require minimal physical interaction for operation. \n3) Interactions should be natural and easy to learn.\n\n These design decisions were inspired by current common interactions and developing technologies. Verbal commands are already commonplace with mobile and smart home devices. Hand tracking technology is still young. The Oculus Quest platform has implemented hand tracking input for their VR headset. Eye tracking technology is still young as well. The required hardware is still relatively bulky. However, Tobii Technology has created glasses capable of eye tracking and are now developing augmented reality glasses similar to the hypothetical Gadget Glasses I proposed for this assignment.",
         "data": [
             {
-                // "imgurl": require('@/assets/speculative-story/0.jpg'),
-                "demo": "https://docs.google.com/presentation/d/e/2PACX-1vRMYqNFrel8xyK9CjuGMFUdagP3QmX8t1cl7-Q-RGWsBF7wJeTwV0aAYRRvRAYVBWX3YvZjAHzsKoRb/embed?start=true&loop=true&delayms=5000",
-                "description": "I chose augmented reality as the interface to work on. I began by searching the internet for current and proposed ideas related to augmented reality interaction and devices.\n\nDesign Goals\n I made some design goals to adhere to for my own ideals on interacting with augmented reality:\n1) The 3 primary types of input would be verbal, hand tracking, and eye tracking. \n2) The device should require minimal physical interaction for operation. \n 3) Interactions should be natural and easy to learn.\n\n These design decisions were inspired by current common interactions and developing technologies. Verbal commands are already commonplace with mobile and smart home devices. Hand tracking technology is still young. The Oculus Quest platform has implemented hand tracking input for their VR headset. Eye tracking technology is still young as well. The required hardware is still relatively bulky. However, Tobii Technology has created glasses capable of eye tracking and are now developing augmented reality glasses similar to the hypothetical Gadget Glasses I proposed for this assignment.",
+                "imgurl": require('@/assets/speculative-story/0.jpg'),
+                // "description": "",
+            },
+            {
+                "imgurl": require('@/assets/speculative-story/1.jpg'),
+                // "description": "",
+            },
+            {
+                "imgurl": require('@/assets/speculative-story/2.jpg'),
+                // "description": "",
+            },
+            {
+                "imgurl": require('@/assets/speculative-story/3.jpg'),
+                // "description": "",
+            },
+            {
+                "imgurl": require('@/assets/speculative-story/4.jpg'),
+                // "description": "",
+            },
+            {
+                "imgurl": require('@/assets/speculative-story/5.jpg'),
+                // "description": "",
+            },
+            {
+                "imgurl": require('@/assets/speculative-story/6.jpg'),
+                // "description": "",
+            },
+            {
+                "imgurl": require('@/assets/speculative-story/7.jpg'),
+                // "description": "",
+            },
+            {
+                "imgurl": require('@/assets/speculative-story/8.jpg'),
+                // "description": "",
+            },
+            {
+                "imgurl": require('@/assets/speculative-story/9.jpg'),
+                // "description": "",
+            },
+            {
+                "imgurl": require('@/assets/speculative-story/10.jpg'),
+                // "description": "",
+            },
+            {
+                "imgurl": require('@/assets/speculative-story/11.jpg'),
+                // "description": "",
+            },
+            {
+                "imgurl": require('@/assets/speculative-story/12.jpg'),
+                // "description": "",
+            },
+            {
+                "imgurl": require('@/assets/speculative-story/13.jpg'),
+                // "description": "",
+            },
+            {
+                "imgurl": require('@/assets/speculative-story/14.jpg'),
+                // "description": "",
+            },
+            {
+                "imgurl": require('@/assets/speculative-story/15.jpg'),
+                // "description": "",
+            },
+            {
+                "imgurl": require('@/assets/speculative-story/16.jpg'),
+                // "description": "",
             },
         ]
     },

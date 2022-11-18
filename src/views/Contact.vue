@@ -13,7 +13,7 @@ export default {
 			contacts: [
 				{
 					id: 1,
-					name: 'Sangkat Teukthla, Sen Sok, Cambodia',
+					name: 'Brian Cantwell',
 					icon: 'map-pin',
 				},
 				{

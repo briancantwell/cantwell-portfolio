@@ -33,7 +33,7 @@ export default {
 				<p class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2">
 					{{ projectInfo.projectDetailsHeading }}
 				</p>
-				<ul class="font-general-regular text-primary-dark dark:text-ternary-light list-disc">
+				<ul class="font-general-regular text-primary-dark dark:text-ternary-light list-disc list-inside">
 					<li v-for="detail in projectInfo.projectDetails" :key="detail.text">
 						{{ detail.text }}
 					</li>
@@ -68,7 +68,7 @@ export default {
 					{{ projectInfo.extlinks[0].title }}
 				</p>
 
-				<ul class="font-general-regular text-primary-dark dark:text-ternary-light list-disc">
+				<ul class="font-general-regular text-primary-dark dark:text-ternary-light list-disc list-inside">
 					<li v-for="link in projectInfo.extlinks[0].links" :key="link.url">
 						<a :href="link.url" target="_blank">{{ link.text }}</a>
 					</li>
