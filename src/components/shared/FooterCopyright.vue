@@ -4,7 +4,7 @@ export default {
 		return {
 			copyrightDate: new Date().getFullYear(),
 			projectName: 'Portfolio',
-			author: 'Chhinghor',
+			author: 'Cantwell',
 		};
 	},
 };
@@ -23,9 +23,9 @@ export default {
 			>
 				{{ projectName }}
 			</a>
-			. Developed by
+			Developed by
 			<a
-				href="#"
+				href="https://github.com/llama-anteater/"
 				target="__blank"
 				class="font-general-medium text-secondary-dark dark:text-secondary-light uppercase hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 duration-500"
 				>{{ author }}</a

@@ -10,26 +10,15 @@ export default {
 					id: 1,
 					name: 'GitHub',
 					icon: 'github',
-					url: 'https://github.com/lengchhinghor',
+					url: 'https://github.com/llama-anteater/',
 				},
 				{
 					id: 2,
-					name: 'Twitter',
-					icon: 'twitter',
-					url: 'https://twitter.com/ChhinghorDev',
+					name: 'LinkedIn',
+					icon: 'linkedin',
+					url: 'https://www.linkedin.com/in/brian-m-cantwell',
 				},
-				{
-					id: 3,
-					name: 'Medium',
-					icon: 'book',
-					url: 'https://medium.com/@lengchhinghor',
-				},
-				{
-					id: 4,
-					name: 'Instagram',
-					icon: 'instagram',
-					url: 'https://www.instagram.com/seavhorrr',
-				},
+
 			],
 		};
 	},

@@ -39,7 +39,7 @@ export default {
 				Full Stack Developer
 			</p>
 		<!-- Download Resume Button -->
-			<div class="flex justify-center sm:block">
+			<!-- <div class="flex justify-center sm:block">
 				<a
 					download="Lengchhinghor_CV_9th.pdf"
 					href="#"
@@ -55,24 +55,9 @@ export default {
 						>Download CV</span
 					></a
 				>
-			</div>
+			</div> -->
 		</div>
 
-		<!-- Banner right illustration -->
-		<!-- <div class="w-full md:w-2/3 text-right float-right">
-			<img
-				v-if="theme === 'light'"
-				src="@/assets/images/hor-pf.jpg"
-				alt="Developer"
-				width="300"
-			/>
-			<img
-				v-else
-				src="@/assets/images/hor-pf.jpg"
-				alt="Developer"
-				width="300"
-			/>
-		</div> -->
 	</section>
 </template>
 
