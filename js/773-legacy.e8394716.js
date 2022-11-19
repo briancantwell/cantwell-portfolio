@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkCantwell_portfolio"]=self["webpackChunkCantwell_portfolio"]||[]).push([[773],{3773:function(r,n,t){t.r(n),t.d(n,{default:function(){return l}});var e=t(6252),o={class:"container mx-auto"};function a(r,n,t,a,c,s){var u=(0,e.up)("ProjectsGrid");return(0,e.wg)(),(0,e.iD)("div",o,[(0,e.Wm)(u)])}var c=t(2526),s={name:"Projects",components:{ProjectsGrid:c.Z}},u=t(3744);const i=(0,u.Z)(s,[["render",a]]);var l=i}}]);
+//# sourceMappingURL=773-legacy.e8394716.js.map
