@@ -10,7 +10,7 @@ export default {
 					id: 1,
 					name: 'GitHub',
 					icon: 'github',
-					url: 'https://github.com/llama-anteater/',
+					url: 'https://github.com/briancantwell/',
 				},
 				{
 					id: 2,
