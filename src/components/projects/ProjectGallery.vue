@@ -52,7 +52,7 @@ export default {
 						{{ projectData.text }}
 					</p>
 				</div>
-				<div class="md:mb-0 border-2 border-black rounded-xl" v-for="item in projectData.images"
+				<div class="md:mb-0 rounded-xl shadow-md shadow-black" v-for="item in projectData.images"
 					:key="item">
 
 					<img :src="item.imgurl" class="rounded-xl cursor-pointer shadow-lg sm:shadow-none "
@@ -65,9 +65,9 @@ export default {
 		</div>
 		<!-- uses below div if 5 or fewer than images -->
 		<div v-else>
-			<div class="mb-2 border-2 border-black rounded-xl drop-shadow-2xl" v-for="item in projectData.images" :key="item.imgurl">
+			<div class="mb-2 border-2 rounded-xl shadow-md shadow-black" v-for="item in projectData.images" :key="item.imgurl">
 				<div>
-					<img :src="item.imgurl" class=" rounded-xl cursor-pointer shadow-lg sm:shadow-none pt-5 px-5"
+					<img :src="item.imgurl" class="border-5 rounded-xl cursor-pointer shadow-lg sm:shadow-none pt-5 px-5"
 						alt="" />
 				</div>
 				

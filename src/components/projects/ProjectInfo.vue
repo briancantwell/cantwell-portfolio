@@ -14,7 +14,6 @@ export default {
 </script>
 
 <template>
-	<!-- <div class="block sm:flex gap-0 sm:gap-10 mt-14"> -->
 		<!-- Single project left section details -->
 		<div class="w-full text-left">
 
@@ -79,5 +78,4 @@ export default {
 		<!-- end left section -->
 
 
-	<!-- </div> -->
 </template>

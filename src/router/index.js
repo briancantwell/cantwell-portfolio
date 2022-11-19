@@ -31,79 +31,10 @@ const routes = [
 			title: 'Cantwell - Projects',
 		},
 	},
-
-
 	{
 		path: '/projects/:projectId',
 		component: () => import('../views/ProjectView.vue'),
-		name: ':projectId',
-		// props:{title:':projectId' },
-	},
-
-
-	// {
-	// 	path: '/projects',
-	// 	name: 'Projects',
-	// 	props: true,
-	// 	meta: {
-	// 		title: 'Cantwell - Projects',
-	// 	},
-	// 	children: [
-	// 		{
-	// 			path: '',
-	// 			name: 'Projects',
-	// 			component: () => import('../views/Projects.vue'),
-	// 			// props: { title: 'Projects' },
-	// 		},
-	// 		{
-	// 			path: ':projectId',
-	// 			component: () => import('../views/ProjectView.vue'),
-	// 			name: ':projectId',
-	// 			// props:{title:':projectId' },
-	// 		}
-	// 	]
-	// },
-	// {
-	// 	path: '/projects/single-project',
-	// 	name: 'Single Project',
-	// 	// route level code-splitting
-	// 	// this generates a separate chunk (projects.[hash].js) for this route
-	// 	// which is lazy-loaded when the route is visited.
-	// 	component: () =>
-	// 		import(
-	// 			/* webpackChunkName: "projects" */ '../views/SingleProject.vue'
-	// 		),
-	// 	meta: {
-	// 		title: 'Chhinghor - Single Project',
-	// 	},
-	// },
-	// {
-	// 	path: '/projects/:projectId',
-	// 	name: 'ProjectView',
-	// 	// route level code-splitting
-	// 	// this generates a separate chunk (projects.[hash].js) for this route
-	// 	// which is lazy-loaded when the route is visited.
-	// 	component: () =>
-	// 		import(
-	// 			/* webpackChunkName: "projects" */ '../views/ProjectView.vue'
-	// 		),
-	// 	meta: {
-	// 		title: 'Project',
-	// 	},
-	// 	props: true,
-	// },
-	{
-		path: '/contact',
-		name: 'Contact',
-		// route level code-splitting
-		// this generates a separate chunk (projects.[hash].js) for this route
-		// which is lazy-loaded when the route is visited.
-		component: () =>
-			import(/* webpackChunkName: "projects" */ '../views/Contact.vue'),
-		meta: {
-			title: 'Chhinghor - Contact',
-		},
-	},
+	},	
 ];
 
 const router = createRouter({
