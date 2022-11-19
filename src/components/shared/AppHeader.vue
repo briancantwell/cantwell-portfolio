@@ -63,7 +63,7 @@ export default {
 						><img
 							v-if="theme === 'light'"
 							src="@/assets/images/profile.svg"
-							class="object-contain w-20"
+							class="object-contain w-20 rounded-2xl"
 							alt="Dark Logo"
 						/>
 						<img
