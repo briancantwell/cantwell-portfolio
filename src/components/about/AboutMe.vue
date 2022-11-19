@@ -13,6 +13,10 @@ export default {
 					bio:
 						'In 2014, after many years of working various job in retail, food service, and manual & CNC manufacturing I decided to return to school. I began attending Riverside City College and Norco College to start my journey, eventually transferring to San Bernardino Valley College to complete my general education. I was accepted into University of California, Irvine in 2018 perusing a degree in Computer Game Science, but decided to change to Informatics as I found interface and user experience design fascinating and rewarding.',
 				},
+				{
+					id:3,
+					bio:'I am currently interested in continuing to imporve my development skills to become a full stack developer.'
+				}
 			],
 		};
 	},
